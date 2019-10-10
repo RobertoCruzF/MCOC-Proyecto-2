@@ -1,7 +1,5 @@
 from matplotlib.pylab import *
-from time import time
 
-tiempo_inicial = time() 
 
 # Unidades base SI (m, kg, s)
 _m = 1.
@@ -168,8 +166,4 @@ plt.ylabel("Velocidad (m/s)")
 legend()
 show()
 
-tiempo_final = time() 
- 
-tiempo_ejecucion = tiempo_final - tiempo_inicial
 
-print "Tiempo de ejecucion del codigo:", tiempo_ejecucion, "segundos"

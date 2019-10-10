@@ -22,12 +22,18 @@ dt= 0.001*_s
 tmax= 1*_s
 ti= 0.*_s
 
+Nparticulas= 10
+
+if Nparticulas<=5:
+	x0=10*d*rand(Nparticulas)
+	y0=3*d*rand(Nparticulas)+d
 
 
-Nparticulas= 15
+else:
+	x0=20*d*rand(Nparticulas)
+	y0=3*d*rand(Nparticulas)+d	
 
-x0=10*d*rand(Nparticulas)
-y0=3*d*rand(Nparticulas)+d
+
 
 vx0= rand(Nparticulas)/2
 vy0= rand(Nparticulas)/2
@@ -37,6 +43,7 @@ V=(4./3.)*pi*(d/2)**3
 m= rho_particula*V
 
 W=array([0,-m*g])
+
 
 t=arange(0,tmax,dt)
 Nt=len(t)
