@@ -43,6 +43,8 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Prueba 2:1.94
 	* Prueba 3:1.718
 	* Media:1.952
+![1_Particula](https://user-images.githubusercontent.com/30905557/66609918-9a6a8180-eb90-11e9-962b-634c5aa71534.png)
+
 - N° de Particulas: 2
 - Tiempos de compilacion:
 	* Prueba 1:2.442
