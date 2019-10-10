@@ -151,3 +151,6 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 ![14_Particulas](https://user-images.githubusercontent.com/30905557/66610329-9b4fe300-eb91-11e9-95b6-85fbb8df855e.png)
 
 
+# GRAFICO RESUMEN TIEMPO DE EJECUCION DEL CODIGO SEGUN CANTIDAD DE PARTICULAS
+
+![Grafico_Resumen](https://user-images.githubusercontent.com/30905557/66610728-e7e7ee00-eb92-11e9-941a-6c29a063338b.PNG)
