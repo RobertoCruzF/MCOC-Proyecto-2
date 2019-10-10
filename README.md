@@ -38,7 +38,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 # Caso 1:
 
 - N° de Particulas: 1
-- Tiempos de compilacion:
+- Tiempos de compilacion (segundos):
 	* Prueba 1:2.197
 	* Prueba 2:1.94
 	* Prueba 3:1.718
@@ -46,7 +46,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 ![1_Particula](https://user-images.githubusercontent.com/30905557/66610618-8e7fbf00-eb92-11e9-93d2-ccc12855de0d.png)
 
 
-- N° de Particulas: 2
+- N° de Particulas (segundos): 2
 - Tiempos de compilacion:
 	* Prueba 1:2.442
 	* Prueba 2:2.092
@@ -54,7 +54,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:2.263
 ![2_Particula](https://user-images.githubusercontent.com/30905557/66610140-211f5e80-eb91-11e9-8147-83e9f06b8cc9.png)
 
-- N° de Particulas: 3
+- N° de Particulas (segundos): 3
 - Tiempos de compilacion:
 	* Prueba 1:3.661
 	* Prueba 2:3.552
@@ -62,7 +62,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:3.603
 ![3_Particulas](https://user-images.githubusercontent.com/30905557/66610158-2da3b700-eb91-11e9-986d-8dc97e416fe2.png)
 
-- N° de Particulas: 4
+- N° de Particulas (segundos): 4
 - Tiempos de compilacion:
 	* Prueba 1:7.6
 	* Prueba 2:5.039
@@ -70,7 +70,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:5.908
 ![4_Particulas](https://user-images.githubusercontent.com/30905557/66610167-372d1f00-eb91-11e9-9f34-7a0341f5cdd5.png)
 
-- N° de Particulas: 5
+- N° de Particulas (segundos): 5
 - Tiempos de compilacion:
 	* Prueba 1:13.794
 	* Prueba 2:7.6
@@ -78,7 +78,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:10.115
 ![5_Particulas](https://user-images.githubusercontent.com/30905557/66610217-55931a80-eb91-11e9-96c0-4bf9b0901345.png)
 
-- N° de Particulas: 6
+- N° de Particulas (segundos): 6
 - Tiempos de compilacion:
 	* Prueba 1:17.09
 	* Prueba 2:26.009
@@ -86,7 +86,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:23.597
 ![6_Particulas](https://user-images.githubusercontent.com/30905557/66610215-55931a80-eb91-11e9-8496-21c0bbcc7775.png)
 
-- N° de Particulas: 7
+- N° de Particulas (segundos): 7
 - Tiempos de compilacion:
 	* Prueba 1:25.165
 	* Prueba 2:31.604
@@ -94,7 +94,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:26.764
 ![7_Particulas](https://user-images.githubusercontent.com/30905557/66610214-55931a80-eb91-11e9-89a8-05becf408dfe.png)
 
-- N° de Particulas: 8
+- N° de Particulas (segundos): 8
 - Tiempos de compilacion:
 	* Prueba 1:29.566
 	* Prueba 2:28.809
@@ -102,7 +102,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:36.356
 ![8_Particulas](https://user-images.githubusercontent.com/30905557/66610213-54fa8400-eb91-11e9-872a-5d35948e1e24.png)
 
-- N° de Particulas: 9
+- N° de Particulas (segundos): 9
 - Tiempos de compilacion:
 	* Prueba 1:58.832
 	* Prueba 2:74.51
@@ -110,7 +110,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:60.647
 ![9_particulas](https://user-images.githubusercontent.com/30905557/66610212-54fa8400-eb91-11e9-9b81-18838e737ba5.png)
 
-- N° de Particulas: 10
+- N° de Particulas (segundos): 10
 - Tiempos de compilacion:
 	* Prueba 1:84.565
 	* Prueba 2:123.372
@@ -118,7 +118,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:113.124
 ![10_Particulas](https://user-images.githubusercontent.com/30905557/66610220-562bb100-eb91-11e9-9888-dd06579ce27c.png)
 
-- N° de Particulas: 11
+- N° de Particulas (segundos): 11
 - Tiempos de compilacion:
 	* Prueba 1:85.307
 	* Prueba 2:149.472
@@ -126,7 +126,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:106.477
 ![11_Particulas](https://user-images.githubusercontent.com/30905557/66610219-562bb100-eb91-11e9-9e14-0a74f135bf23.png)
 
-- N° de Particulas: 12
+- N° de Particulas (segundos): 12
 - Tiempos de compilacion:
 	* Prueba 1:216.095
 	* Prueba 2:446.621
@@ -134,7 +134,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:275.309
 ![12_Particulas](https://user-images.githubusercontent.com/30905557/66610218-55931a80-eb91-11e9-9dfd-0ecf447cf0d1.png)
 
-- N° de Particulas: 13
+- N° de Particulas (segundos): 13
 - Tiempos de compilacion:
 	* Prueba 1:312.009
 	* Prueba 2:224.496
@@ -142,7 +142,7 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:281.810
 ![13_Particulas](https://user-images.githubusercontent.com/30905557/66610315-925f1180-eb91-11e9-8739-d5fb0ddae49a.png)
 
-- N° de Particulas: 14
+- N° de Particulas (segundos): 14
 - Tiempos de compilacion:
 	* Prueba 1:412.936
 	* Prueba 2:948.824
