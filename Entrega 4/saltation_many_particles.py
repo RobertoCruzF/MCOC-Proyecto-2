@@ -22,7 +22,7 @@ dt= 0.001*_s
 tmax= 1*_s
 ti= 0.*_s
 
-Nparticulas= 10
+Nparticulas= 13
 
 if Nparticulas<=5:
 	x0=10*d*rand(Nparticulas)

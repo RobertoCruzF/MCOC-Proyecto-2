@@ -117,9 +117,9 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:281.810
 - N° de Particulas: 14
 - Tiempos de compilacion:
-	* Prueba 1:
-	* Prueba 2:
-	* Prueba 3:
-	* Media:
+	* Prueba 1:412.936
+	* Prueba 2:948.824
+	* Prueba 3:823.54
+	* Media:728.433
 
 
