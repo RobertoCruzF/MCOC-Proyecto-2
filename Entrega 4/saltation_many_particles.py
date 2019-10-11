@@ -23,7 +23,7 @@ ti= 0.*_s
 
 
 
-Nparticulas = 15
+Nparticulas = 16
 
 if Nparticulas <= 5:
 	x0=10*d*rand(Nparticulas)
