@@ -41,115 +41,115 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 
 - N° de Particulas: 1
 - Tiempos de compilacion (segundos):
-	* Prueba 1:2.197
-	* Prueba 2:1.94
-	* Prueba 3:1.718
-	* Media:1.952
+	* Prueba 1:0.379
+	* Prueba 2:0.3
+	* Prueba 3:0.38
+	* Media:0.352
 ![1_Particula](https://user-images.githubusercontent.com/30905557/66610618-8e7fbf00-eb92-11e9-93d2-ccc12855de0d.png)
 
 
 - N° de Particulas: 2
 - Tiempos de compilacion (segundos):
-	* Prueba 1:2.442
-	* Prueba 2:2.092
-	* Prueba 3:2.276
-	* Media:2.263
+	* Prueba 1:0.73
+	* Prueba 2:0.548
+	* Prueba 3:0.634
+	* Media:0.637
 ![2_Particula](https://user-images.githubusercontent.com/30905557/66610140-211f5e80-eb91-11e9-8147-83e9f06b8cc9.png)
 
 - N° de Particulas: 3
 - Tiempos de compilacion (segundos):
-	* Prueba 1:3.661
-	* Prueba 2:3.552
-	* Prueba 3: 3.596
-	* Media:3.603
+	* Prueba 1:1.247
+	* Prueba 2:1.4
+	* Prueba 3: 1.17
+	* Media:1.272
 ![3_Particulas](https://user-images.githubusercontent.com/30905557/66610158-2da3b700-eb91-11e9-986d-8dc97e416fe2.png)
 
 - N° de Particulas: 4
 - Tiempos de compilacion (segundos):
-	* Prueba 1:7.6
-	* Prueba 2:5.039
-	* Prueba 3:5.085
-	* Media:5.908
+	* Prueba 1:2.118
+	* Prueba 2:2.59
+	* Prueba 3:1.61
+	* Media:2.106
 ![4_Particulas](https://user-images.githubusercontent.com/30905557/66610167-372d1f00-eb91-11e9-9f34-7a0341f5cdd5.png)
 
 - N° de Particulas: 5
 - Tiempos de compilacion (segundos):
-	* Prueba 1:13.794
-	* Prueba 2:7.6
-	* Prueba 3:8.952
-	* Media:10.115
+	* Prueba 1:2.118
+	* Prueba 2:4.287
+	* Prueba 3:3.072
+	* Media:3.627
 ![5_Particulas](https://user-images.githubusercontent.com/30905557/66610217-55931a80-eb91-11e9-96c0-4bf9b0901345.png)
 
 - N° de Particulas: 6
 - Tiempos de compilacion (segundos):
-	* Prueba 1:17.09
-	* Prueba 2:26.009
-	* Prueba 3:27.692
-	* Media:23.597
+	* Prueba 1:3.96
+	* Prueba 2:3.89
+	* Prueba 3:4.27
+	* Media:4.04
 ![6_Particulas](https://user-images.githubusercontent.com/30905557/66610215-55931a80-eb91-11e9-8496-21c0bbcc7775.png)
 
 - N° de Particulas: 7
 - Tiempos de compilacion (segundos):
-	* Prueba 1:25.165
-	* Prueba 2:31.604
-	* Prueba 3:23.523
-	* Media:26.764
+	* Prueba 1:7.58
+	* Prueba 2:6.8
+	* Prueba 3:8.83
+	* Media:7.737
 ![7_Particulas](https://user-images.githubusercontent.com/30905557/66610214-55931a80-eb91-11e9-89a8-05becf408dfe.png)
 
 - N° de Particulas: 8
 - Tiempos de compilacion (segundos):
-	* Prueba 1:29.566
-	* Prueba 2:28.809
-	* Prueba 3:50.694
-	* Media:36.356
+	* Prueba 1:12.87
+	* Prueba 2:9.32
+	* Prueba 3:11.77
+	* Media:11.32
 ![8_Particulas](https://user-images.githubusercontent.com/30905557/66610213-54fa8400-eb91-11e9-872a-5d35948e1e24.png)
 
 - N° de Particulas: 9
 - Tiempos de compilacion (segundos):
-	* Prueba 1:58.832
-	* Prueba 2:74.51
-	* Prueba 3:48.6
-	* Media:60.647
+	* Prueba 1:19.414
+	* Prueba 2:20
+	* Prueba 3:17.46
+	* Media:18.958
 ![9_particulas](https://user-images.githubusercontent.com/30905557/66610212-54fa8400-eb91-11e9-9b81-18838e737ba5.png)
 
 - N° de Particulas: 10
 - Tiempos de compilacion (segundos):
-	* Prueba 1:84.565
-	* Prueba 2:123.372
-	* Prueba 3:131.434
-	* Media:113.124
+	* Prueba 1:52.659
+	* Prueba 2:41.994
+	* Prueba 3:56.684
+	* Media:50.446
 ![10_Particulas](https://user-images.githubusercontent.com/30905557/66610220-562bb100-eb91-11e9-9888-dd06579ce27c.png)
 
 - N° de Particulas: 11
 - Tiempos de compilacion (segundos):
-	* Prueba 1:85.307
-	* Prueba 2:149.472
-	* Prueba 3:84.307
-	* Media:106.477
+	* Prueba 1:55.073
+	* Prueba 2:85.17
+	* Prueba 3:67.497
+	* Media:69.247
 ![11_Particulas](https://user-images.githubusercontent.com/30905557/66610219-562bb100-eb91-11e9-9e14-0a74f135bf23.png)
 
 - N° de Particulas: 12
 - Tiempos de compilacion (segundos):
-	* Prueba 1:216.095
-	* Prueba 2:446.621
-	* Prueba 3:163.211
-	* Media:275.309
+	* Prueba 1:77.19
+	* Prueba 2:141.56
+	* Prueba 3:91.8
+	* Media:103.517
 ![12_Particulas](https://user-images.githubusercontent.com/30905557/66610218-55931a80-eb91-11e9-9dfd-0ecf447cf0d1.png)
 
 - N° de Particulas: 13
 - Tiempos de compilacion (segundos):
-	* Prueba 1:312.009
-	* Prueba 2:224.496
-	* Prueba 3:308.924
-	* Media:281.810
+	* Prueba 1:
+	* Prueba 2:
+	* Prueba 3:
+	* Media:
 ![13_Particulas](https://user-images.githubusercontent.com/30905557/66610315-925f1180-eb91-11e9-8739-d5fb0ddae49a.png)
 
 - N° de Particulas: 14
 - Tiempos de compilacion (segundos):
-	* Prueba 1:412.936
-	* Prueba 2:948.824
-	* Prueba 3:823.54
-	* Media:728.433
+	* Prueba 1:
+	* Prueba 2:
+	* Prueba 3:
+	* Media:
 ![14_Particulas](https://user-images.githubusercontent.com/30905557/66610329-9b4fe300-eb91-11e9-95b6-85fbb8df855e.png)
 
 

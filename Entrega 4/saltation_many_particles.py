@@ -1,7 +1,6 @@
 from matplotlib.pylab import *
 from time import time
-tiempo_inicial = time() 
-
+tiempo_inicial = time()
 # Unidades base SI (m, kg, s)
 _m = 1.
 _kg = 1.
@@ -22,18 +21,19 @@ dt= 0.001*_s
 tmax= 1*_s
 ti= 0.*_s
 
-Nparticulas= 13
 
-if Nparticulas<=5:
+
+Nparticulas = 13
+
+if Nparticulas <= 5:
 	x0=10*d*rand(Nparticulas)
-	y0=3*d*rand(Nparticulas)+d
-
-
+	y0=20*d*rand(Nparticulas)+d
+elif Nparticulas > 5 and Nparticulas <=12:
+	x0=30*d*rand(Nparticulas)
+	y0=60*d*rand(Nparticulas)+d
 else:
-	x0=20*d*rand(Nparticulas)
-	y0=3*d*rand(Nparticulas)+d	
-
-
+	x0=60*d*rand(Nparticulas)
+	y0=90*d*rand(Nparticulas)+10*d
 
 vx0= rand(Nparticulas)/2
 vy0= rand(Nparticulas)/2
@@ -43,7 +43,6 @@ V=(4./3.)*pi*(d/2)**3
 m= rho_particula*V
 
 W=array([0,-m*g])
-
 
 t=arange(0,tmax,dt)
 Nt=len(t)
@@ -83,9 +82,11 @@ def particula(z,t):
 			xi = z[4*i:(4*i+2)]
 			vi = z[4*i+2:(4*i+4)]
 
-			vf = velocity_field(xi)
-			vf_top = norm(velocity_field(xi + (di/2)*jhat)) 
-			vf_bot = norm(velocity_field(xi - (di/2)*jhat)) 
+			xtop = xi + (d/2)*jhat
+			xbot = xi - (d/2)*jhat
+			vf = velocity_field(xi + 0*jhat)
+			vf_top = abs(velocity_field(xtop)[0]) 
+			vf_bot = norm(velocity_field(xbot)[0]) 
 			vrel = vf - vi
 			fD = (0.5*Cd*alpha*rho_agua*norm(vrel)*A)*vrel  #formula wiki
 			#fD = alpha*(R*(d*g/(ustar**2))-(3./4.)*Cd*(vrel)*norm(vrel)) # formula PM
@@ -96,8 +97,13 @@ def particula(z,t):
 
 			Fi = W + fD + fL + fB
 
-			if xi[1] < 0:
-				Fi[1] += -k_penal*xi[1]
+			xs = (xi[0]//d)*d + d/2
+			cxs = array([xs,0])
+			dxs = xi - cxs
+			if norm(dxs) < d:
+				delta = d - norm(dxs)
+				nxs = dxs/norm(dxs)
+				Fi += k_penal*delta*nxs
 
 			zp[4*i:(4*i+2)] = vi
 			zp[4*i+2:(4*i+4)] = Fi/m
@@ -147,17 +153,31 @@ for i in range(Nparticulas):
 	plot(xi[0],yi[0],"o",color="r")
 
 	plot(xi,yi,color=col)
-	
+
+xmax = 0
+for a in range(Nparticulas):
+	xi=z[:,4*i:]
+	xmax1 = max(xi[:,0])
+	xmax = max([xmax,xmax1])
+
+l = (xmax/d)*100
+x = linspace(0, xmax, l)
+x_mod_d = (x % d) - d/2
+y = sqrt((d/2)**2 - x_mod_d**2)	
+plot(x/d, y/d)
+
 ax.axhline(d/2,color="k", linestyle="--")
 ax.axhline(0,color="k", linestyle="--")
 plt.xlabel("Avance direccion X (mm)")
 plt.ylabel("Altura direccion Y (mm)")
 plt.title("Movimiento de particulas (plano XY)")
 plt.legend()
-show()
 
 tiempo_final= time() 
 
 tiempo_de_compilacion= tiempo_final-tiempo_inicial	
-
 print 'El tiempo de ejecucion fue:',tiempo_de_compilacion, "segundos" #En segundos
+
+#axis("equal")
+
+show()
