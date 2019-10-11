@@ -138,20 +138,56 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 
 - N° de Particulas: 13
 - Tiempos de compilacion (segundos):
-	* Prueba 1:
-	* Prueba 2:
-	* Prueba 3:
-	* Media:
+	* Prueba 1:89.84
+	* Prueba 2:78.55
+	* Prueba 3:97.93
+	* Media:88.773
 ![13_Particulas](https://user-images.githubusercontent.com/30905557/66610315-925f1180-eb91-11e9-8739-d5fb0ddae49a.png)
 
 - N° de Particulas: 14
+- Tiempos de compilacion (segundos):
+	* Prueba 1:146.09
+	* Prueba 2:93.0322
+	* Prueba 3:82.007
+	* Media:107.043
+![14_Particulas](https://user-images.githubusercontent.com/30905557/66610329-9b4fe300-eb91-11e9-95b6-85fbb8df855e.png)
+
+- N° de Particulas: 15
 - Tiempos de compilacion (segundos):
 	* Prueba 1:
 	* Prueba 2:
 	* Prueba 3:
 	* Media:
-![14_Particulas](https://user-images.githubusercontent.com/30905557/66610329-9b4fe300-eb91-11e9-95b6-85fbb8df855e.png)
-
+- N° de Particulas: 16
+- Tiempos de compilacion (segundos):
+	* Prueba 1:
+	* Prueba 2:
+	* Prueba 3:
+	* Media:
+- N° de Particulas: 17
+- Tiempos de compilacion (segundos):
+	* Prueba 1:
+	* Prueba 2:
+	* Prueba 3:
+	* Media:
+- N° de Particulas: 18
+- Tiempos de compilacion (segundos):
+	* Prueba 1:
+	* Prueba 2:
+	* Prueba 3:
+	* Media:
+- N° de Particulas: 19
+- Tiempos de compilacion (segundos):
+	* Prueba 1:
+	* Prueba 2:
+	* Prueba 3:
+	* Media:
+- N° de Particulas: 20
+- Tiempos de compilacion (segundos):
+	* Prueba 1:
+	* Prueba 2:
+	* Prueba 3:
+	* Media:
 
 # GRAFICO RESUMEN TIEMPO DE EJECUCION DEL CODIGO SEGUN CANTIDAD DE PARTICULAS
 
