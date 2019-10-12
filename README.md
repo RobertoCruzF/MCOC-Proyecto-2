@@ -35,7 +35,6 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 
 # COMPORTAMIENTO DEL COMPUTADOR FRENTE A DIFERNTES CASOS
 
-- Se considrea un tmax=1 [segundo]
 
 # Caso 1:
 
@@ -158,36 +157,6 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 	* Media:123.201
 ![15_Particulas](https://user-images.githubusercontent.com/30905557/66690968-e76e5680-ec69-11e9-8a39-09753e506794.png)
 
-- N° de Particulas: 16
-- Tiempos de compilacion (segundos):
-	* Prueba 1:
-	* Prueba 2:
-	* Prueba 3:
-	* Media:
-- N° de Particulas: 17
-- Tiempos de compilacion (segundos):
-	* Prueba 1:
-	* Prueba 2:
-	* Prueba 3:
-	* Media:
-- N° de Particulas: 18
-- Tiempos de compilacion (segundos):
-	* Prueba 1:
-	* Prueba 2:
-	* Prueba 3:
-	* Media:
-- N° de Particulas: 19
-- Tiempos de compilacion (segundos):
-	* Prueba 1:
-	* Prueba 2:
-	* Prueba 3:
-	* Media:
-- N° de Particulas: 20
-- Tiempos de compilacion (segundos):
-	* Prueba 1:
-	* Prueba 2:
-	* Prueba 3:
-	* Media:
 
 # GRAFICO RESUMEN TIEMPO DE EJECUCION DEL CODIGO SEGUN CANTIDAD DE PARTICULAS
 
