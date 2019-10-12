@@ -35,127 +35,108 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 
 # COMPORTAMIENTO DEL COMPUTADOR FRENTE A DIFERNTES CASOS
 
-
+- Se ejecutó el codigo para un numero de 1 a 20 particulas, realizando 3 ejecuciones por particula y guardando la media del tiempo de ejecución para poder realizar un grafico de tiempo de ejecucion del codigo versus cantidad de particulas.
 # Caso 1:
 
 - N° de Particulas: 1
 - Tiempos de compilacion (segundos):
-	* Prueba 1:0.379
-	* Prueba 2:0.3
-	* Prueba 3:0.38
 	* Media:0.352
 ![1_Particula](https://user-images.githubusercontent.com/30905557/66690983-eb01dd80-ec69-11e9-8292-08cf6f5423d6.png)
 
 - N° de Particulas: 2
 - Tiempos de compilacion (segundos):
-	* Prueba 1:0.73
-	* Prueba 2:0.548
-	* Prueba 3:0.634
 	* Media:0.637
 ![2_Particula](https://user-images.githubusercontent.com/30905557/66690982-eb01dd80-ec69-11e9-87e9-436c6d7a6077.png)
 - N° de Particulas: 3
 - Tiempos de compilacion (segundos):
-	* Prueba 1:1.247
-	* Prueba 2:1.4
-	* Prueba 3: 1.17
 	* Media:1.272
 ![3_Particulas](https://user-images.githubusercontent.com/30905557/66690981-ea694700-ec69-11e9-82ae-8ce50232dae0.png)
 
 - N° de Particulas: 4
 - Tiempos de compilacion (segundos):
-	* Prueba 1:2.118
-	* Prueba 2:2.59
-	* Prueba 3:1.61
 	* Media:2.106
 ![4_Particulas](https://user-images.githubusercontent.com/30905557/66690980-e9d0b080-ec69-11e9-92d6-1403c98a6f52.png)
 
 - N° de Particulas: 5
 - Tiempos de compilacion (segundos):
-	* Prueba 1:2.118
-	* Prueba 2:4.287
-	* Prueba 3:3.072
 	* Media:3.627
 ![5_Particulas](https://user-images.githubusercontent.com/30905557/66690978-e9381a00-ec69-11e9-8ec7-2427d3c937d7.png)
 
 - N° de Particulas: 6
 - Tiempos de compilacion (segundos):
-	* Prueba 1:3.96
-	* Prueba 2:3.89
-	* Prueba 3:4.27
 	* Media:4.04
 ![6_Particulas](https://user-images.githubusercontent.com/30905557/66690977-e9381a00-ec69-11e9-832d-53aa7ea389e4.png)
 
-
 - N° de Particulas: 7
 - Tiempos de compilacion (segundos):
-	* Prueba 1:7.58
-	* Prueba 2:6.8
-	* Prueba 3:8.83
 	* Media:7.737
 ![7_Particulas](https://user-images.githubusercontent.com/30905557/66690976-e9381a00-ec69-11e9-803a-5c3b7c675242.png)
+
 - N° de Particulas: 8
 - Tiempos de compilacion (segundos):
-	* Prueba 1:12.87
-	* Prueba 2:9.32
-	* Prueba 3:11.77
 	* Media:11.32
 ![8_Particulas](https://user-images.githubusercontent.com/30905557/66690975-e89f8380-ec69-11e9-9ff1-39df4d0d1a7b.png)
 
 - N° de Particulas: 9
 - Tiempos de compilacion (segundos):
-	* Prueba 1:19.414
-	* Prueba 2:20
-	* Prueba 3:17.46
 	* Media:18.958
+	
 ![9_particulas](https://user-images.githubusercontent.com/30905557/66690974-e89f8380-ec69-11e9-9208-5bda435bce37.png)
 
 - N° de Particulas: 10
 - Tiempos de compilacion (segundos):
-	* Prueba 1:52.659
-	* Prueba 2:41.994
-	* Prueba 3:56.684
 	* Media:50.446
+	
 ![10_Particulas](https://user-images.githubusercontent.com/30905557/66690973-e89f8380-ec69-11e9-8c6f-ce461ed9a2fa.png)
 
 - N° de Particulas: 11
 - Tiempos de compilacion (segundos):
-	* Prueba 1:55.073
-	* Prueba 2:85.17
-	* Prueba 3:67.497
 	* Media:69.247
+	
 ![11_Particulas](https://user-images.githubusercontent.com/30905557/66690972-e89f8380-ec69-11e9-9458-b2a6fef1c676.png)
 
 - N° de Particulas: 12
 - Tiempos de compilacion (segundos):
-	* Prueba 1:77.19
-	* Prueba 2:141.56
-	* Prueba 3:91.8
 	* Media:103.517
+	
 ![12_Particulas](https://user-images.githubusercontent.com/30905557/66690971-e806ed00-ec69-11e9-9fe4-5fa1d514d8f5.png)
 
 - N° de Particulas: 13
 - Tiempos de compilacion (segundos):
-	* Prueba 1:89.84
-	* Prueba 2:78.55
-	* Prueba 3:97.93
 	* Media:88.773
+	
 ![13_Particulas](https://user-images.githubusercontent.com/30905557/66690970-e806ed00-ec69-11e9-986f-dc204824c10d.png)
 
 - N° de Particulas: 14
 - Tiempos de compilacion (segundos):
-	* Prueba 1:146.09
-	* Prueba 2:93.0322
-	* Prueba 3:82.007
 	* Media:107.043
+	
 ![14_Particulas](https://user-images.githubusercontent.com/30905557/66690969-e76e5680-ec69-11e9-84b6-6c072cab7cbb.png)
 
 - N° de Particulas: 15
 - Tiempos de compilacion (segundos):
-	* Prueba 1:143.8
-	* Prueba 2:104.45
-	* Prueba 3:121.352
 	* Media:123.201
+	
 ![15_Particulas](https://user-images.githubusercontent.com/30905557/66690968-e76e5680-ec69-11e9-8a39-09753e506794.png)
+- N° de Particulas: 16
+- Tiempos de compilacion (segundos):
+	* Media:251.739
+![16_Particulas](https://user-images.githubusercontent.com/30905557/66691550-aed07c00-ec6d-11e9-9452-3869a11ec07c.png)
+
+- N° de Particulas: 17
+- Tiempos de compilacion (segundos):
+	* Media:142.768
+![17_Particulas](https://user-images.githubusercontent.com/30905557/66691585-efc89080-ec6d-11e9-8ce5-71997f7ee14b.png)
+
+- N° de Particulas: 18
+- Tiempos de compilacion (segundos):
+	* Media:179.37
+![18_Particulas](https://user-images.githubusercontent.com/30905557/66691684-75e4d700-ec6e-11e9-886f-e2aac1df0dbd.png)
+
+- N° de Particulas: 19
+- Tiempos de compilacion (segundos):
+	* Media:271.12
+![19_Particulas](https://user-images.githubusercontent.com/30905557/66691787-39fe4180-ec6f-11e9-8ec8-dc4d7df38846.png)
 
 - N° de Particulas: 20
 - Tiempos de compilacion (segundos): 375.03
