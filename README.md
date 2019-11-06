@@ -1,7 +1,4 @@
 # MCOC-Proyecto-2
-
-# README REPOSITORIO ROBERTO CRUZ
-
 Proyecto 2 Métodos Computacionales para Obras Civiles
 
 Integrantes:
@@ -25,124 +22,39 @@ Implementar un modelo de simulacion numerico para transporte de sedimentos de fo
 - [Meta 4] : Implementacion del código para múltiples partículas considerando un perfil de velocidad sencillo; además de uno complejo.
 - [Entrega 4] : (script saltation_many_particles_validation.py) Para el código se comienza por abordar el movimiento de más de una partícula, específicamente 2 con un perfil de velocidad sencillo; luego se pretende poder entregar los resultados para un número de partículas deseadas por el usuario, creando un input y con esto un ciclo que permita guardar las posiciones de cada una de estas partículas.
 
-# ESPECIFICACIONES DEL COMPUTADOR
+Fernanda Arcos Hernández:
+En la [Entrega 4] como se menciona anteriormente se observan los resultados para el salto de varias particulas en un flujo determinado.A estas partículas se les considera la fuerza de Drag, Lift, Peso y Empuje. Las partículas poseen un diametro de 15 mm; lo que conlleva una densidad de 2650 Kg/m^3 y una velocidad (ustar) predeterminada con los papers entregados de 0.18. 
+Se realizó una prueba de como es que funciona el código a medida que aumenta la cantidad de partículas, se observa que el tiempo es mayor a medida que aumenta el número; pero como el código funciona de manera aleatoria, mientras más choques entre particulas existan, mayor sera el tiempo dentro de una misma cantidad; para poder sacar un promedio del tiempo se implemento el código en tres oportunidades por cada n° de particulas, obteniendo un promedio.
 
-- Marca: Asus
-- Procesador: Intel Core i5-7300HQ CPU @ 2.5GHz 
-- Memoria RAM: 8 GB
-- Nucleos: 4
-- Sistema Operativo: Windows 10 Home, x64 bites
+En el código se realiza la variación de 1 a 20 párticulas y observar su movimiento durante 2s con un dt =0,001 s.
 
-# COMPORTAMIENTO DEL COMPUTADOR FRENTE A DIFERNTES CASOS
+Gráfico para:
 
-- Se ejecutó el codigo para un numero de 1 a 20 particulas, realizando 3 ejecuciones por particula y guardando la media del tiempo de ejecución para poder realizar un grafico de tiempo de ejecucion del codigo versus cantidad de particulas.
-# Caso 1:
+Nparticulas = 2
 
-- N° de Particulas: 1
-- Tiempos de compilacion (segundos):
-	* Media:0.352
-![1_Particula](https://user-images.githubusercontent.com/30905557/66690983-eb01dd80-ec69-11e9-8292-08cf6f5423d6.png)
+![Np 2 2s](https://user-images.githubusercontent.com/53495949/66692300-7895fb00-ec73-11e9-88de-44fb537f63e0.JPG)
 
-- N° de Particulas: 2
-- Tiempos de compilacion (segundos):
-	* Media:0.637
-![2_Particula](https://user-images.githubusercontent.com/30905557/66690982-eb01dd80-ec69-11e9-87e9-436c6d7a6077.png)
-- N° de Particulas: 3
-- Tiempos de compilacion (segundos):
-	* Media:1.272
-![3_Particulas](https://user-images.githubusercontent.com/30905557/66690981-ea694700-ec69-11e9-82ae-8ce50232dae0.png)
+Nparticulas = 5
 
-- N° de Particulas: 4
-- Tiempos de compilacion (segundos):
-	* Media:2.106
-![4_Particulas](https://user-images.githubusercontent.com/30905557/66690980-e9d0b080-ec69-11e9-92d6-1403c98a6f52.png)
+![Np5 2s](https://user-images.githubusercontent.com/53495949/66691821-6b770d00-ec6f-11e9-8cc5-5a13a24c4a92.JPG)
 
-- N° de Particulas: 5
-- Tiempos de compilacion (segundos):
-	* Media:3.627
-![5_Particulas](https://user-images.githubusercontent.com/30905557/66690978-e9381a00-ec69-11e9-8ec7-2427d3c937d7.png)
+Nparticulas = 10 
 
-- N° de Particulas: 6
-- Tiempos de compilacion (segundos):
-	* Media:4.04
-![6_Particulas](https://user-images.githubusercontent.com/30905557/66690977-e9381a00-ec69-11e9-832d-53aa7ea389e4.png)
+![Np10 2s](https://user-images.githubusercontent.com/53495949/66691826-7af65600-ec6f-11e9-8653-ed793aa2ff7c.JPG)
 
-- N° de Particulas: 7
-- Tiempos de compilacion (segundos):
-	* Media:7.737
-![7_Particulas](https://user-images.githubusercontent.com/30905557/66690976-e9381a00-ec69-11e9-803a-5c3b7c675242.png)
+Nparticulas = 15
 
-- N° de Particulas: 8
-- Tiempos de compilacion (segundos):
-	* Media:11.32
-![8_Particulas](https://user-images.githubusercontent.com/30905557/66690975-e89f8380-ec69-11e9-9ff1-39df4d0d1a7b.png)
+![Np 15 2s](https://user-images.githubusercontent.com/53495949/66691839-8c3f6280-ec6f-11e9-9624-425acd97aa6f.JPG)
 
-- N° de Particulas: 9
-- Tiempos de compilacion (segundos):
-	* Media:18.958
-	
-![9_particulas](https://user-images.githubusercontent.com/30905557/66690974-e89f8380-ec69-11e9-9208-5bda435bce37.png)
-
-- N° de Particulas: 10
-- Tiempos de compilacion (segundos):
-	* Media:50.446
-	
-![10_Particulas](https://user-images.githubusercontent.com/30905557/66690973-e89f8380-ec69-11e9-8c6f-ce461ed9a2fa.png)
-
-- N° de Particulas: 11
-- Tiempos de compilacion (segundos):
-	* Media:69.247
-	
-![11_Particulas](https://user-images.githubusercontent.com/30905557/66690972-e89f8380-ec69-11e9-9458-b2a6fef1c676.png)
-
-- N° de Particulas: 12
-- Tiempos de compilacion (segundos):
-	* Media:103.517
-	
-![12_Particulas](https://user-images.githubusercontent.com/30905557/66690971-e806ed00-ec69-11e9-9fe4-5fa1d514d8f5.png)
-
-- N° de Particulas: 13
-- Tiempos de compilacion (segundos):
-	* Media:88.773
-	
-![13_Particulas](https://user-images.githubusercontent.com/30905557/66690970-e806ed00-ec69-11e9-986f-dc204824c10d.png)
-
-- N° de Particulas: 14
-- Tiempos de compilacion (segundos):
-	* Media:107.043
-	
-![14_Particulas](https://user-images.githubusercontent.com/30905557/66690969-e76e5680-ec69-11e9-84b6-6c072cab7cbb.png)
-
-- N° de Particulas: 15
-- Tiempos de compilacion (segundos):
-	* Media:123.201
-	
-![15_Particulas](https://user-images.githubusercontent.com/30905557/66690968-e76e5680-ec69-11e9-8a39-09753e506794.png)
-- N° de Particulas: 16
-- Tiempos de compilacion (segundos):
-	* Media:251.739
-![16_Particulas](https://user-images.githubusercontent.com/30905557/66691550-aed07c00-ec6d-11e9-9452-3869a11ec07c.png)
-
-- N° de Particulas: 17
-- Tiempos de compilacion (segundos):
-	* Media:142.768
-![17_Particulas](https://user-images.githubusercontent.com/30905557/66691585-efc89080-ec6d-11e9-8ce5-71997f7ee14b.png)
-
-- N° de Particulas: 18
-- Tiempos de compilacion (segundos):
-	* Media:179.37
-![18_Particulas](https://user-images.githubusercontent.com/30905557/66691684-75e4d700-ec6e-11e9-886f-e2aac1df0dbd.png)
-
-- N° de Particulas: 19
-- Tiempos de compilacion (segundos):
-	* Media:271.12
-![19_Particulas](https://user-images.githubusercontent.com/30905557/66691787-39fe4180-ec6f-11e9-8ec8-dc4d7df38846.png)
-
-- N° de Particulas: 20
-- Tiempos de compilacion (segundos): 375.03
-![20_ Particulas](https://user-images.githubusercontent.com/30905557/66691370-3ddc9480-ec6c-11e9-84d1-b186a0e17d4a.png)
+Nparticulas = 20
 
 
-# GRAFICO RESUMEN TIEMPO DE EJECUCION DEL CODIGO SEGUN CANTIDAD DE PARTICULAS
+![Np20 2s](https://user-images.githubusercontent.com/53495949/66692314-8c416180-ec73-11e9-9b45-69c4ed135a57.JPG)
 
-![Grafico_Resumen](https://user-images.githubusercontent.com/30905557/66691868-d9233900-ec6f-11e9-8d16-12cd7a4e2d64.PNG)
+
+El programa para 20 particulas demoro en promedio un total de 414 s
+
+![tiempo](https://user-images.githubusercontent.com/53495949/66692324-b2ff9800-ec73-11e9-8970-d703b92f7979.JPG)
+
+Finalmente las caracteristicas del computador en el cual se ejecuto el código son:
+![propiedades equipo](https://user-images.githubusercontent.com/53495949/66691856-bc870100-ec6f-11e9-98ea-c0e38c436041.JPG)
