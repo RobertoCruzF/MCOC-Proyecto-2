@@ -1,6 +1,6 @@
 ENTREGA 6 ----> Tiempos de Roberto Cruz
 
-Cualidades del computador
+Caracteristicas del computador
 
 - Memoria RAM: 8GB
 - Procesador: Intel Core i5, 7300HQ, 2.5GHZ
